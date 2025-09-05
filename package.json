@@ -1,7 +1,7 @@
 {
   "name": "frontend-tutorial-vietnamese",
   "version": "1.0.0",
-  "description": "Dự án hướng dẫn về các framework frontend",
+  "description": "A tutorial project on frontend frameworks",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
