@@ -1,7 +1,7 @@
 {
   "name": "my-package",
   "version": "1.0.0",
-  "description": "A concise description of my awesome package that does amazing things",
+  "description": "An awesome package that provides amazing functionalities.",
   "main": "index.js",
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1"
