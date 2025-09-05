@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     entry: './src/index.js',
     output: {
-        filename: 'app.bundle.js',
+        filename: 'app.bundle.[contenthash].js', // Added content hash for versioning
         path: path.resolve(__dirname, 'dist'),
         sourceMapFilename: '[file].map', // Updated sourceMapFilename
     },
@@ -13,7 +13,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx?$/,  // Updated to include .jsx files
+                test: /\.(jsx?)$/,  // Updated to include .jsx files
                 exclude: /node_modules/, 
                 use: {
                     loader: 'babel-loader',
