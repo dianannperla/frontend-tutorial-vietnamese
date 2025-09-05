@@ -5,7 +5,7 @@ module.exports = {
     output: {
         filename: 'app.bundle.js',
         path: path.resolve(__dirname, 'dist'),
-        sourceMapFilename: '[file].map',
+        sourceMapFilename: '[file].map', // Updated sourceMapFilename
     },
     devServer: {
         static: './dist',
