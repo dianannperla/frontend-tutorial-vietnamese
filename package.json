@@ -1,0 +1,28 @@
+{
+  "name": "frontend-tutorial-vietnamese",
+  "version": "1.0.0",
+  "description": "Dự án hướng dẫn về các framework frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/frontend-tutorial-vietnamese.git"
+  },
+  "keywords": ["frontend", "tutorial", "react", "vue", "angular"],
+  "author": "Tên tác giả",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vue": "^3.0.0",
+    "@angular/core": "^13.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0"
+  }
+}
